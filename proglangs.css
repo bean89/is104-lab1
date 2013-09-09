@@ -1,0 +1,16 @@
+#top5{
+	color: green;
+}
+
+#jauda {
+	color: red;
+}
+
+#jepp {
+	color: brown;
+}
+
+.listestil {
+	list-style-type: none;
+	text-align: center;
+}
