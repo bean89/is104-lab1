@@ -1,3 +1,4 @@
+Lab1: 
 Kontrollspørsmål 0: Javascript kan brukes til blant annet:
 
 1. det å sjekke om et skjema er korrekt utfylt før det blir sendt til brukeren.
@@ -25,3 +26,7 @@ Span: brukes for å endre noe inline, som ett ord i en setning.
 
 Kontrollspørsmål 5:
 mye kan forberdes, som for eksempel kunne vi hatt en beskrivelse hva siden omhandler, ufyllende info om lista og mye mer!
+-----------------------------------------------------------------------------------------------------------------------------------
+Lab2:
+Kontrollspørsmål 1:
+HTML = Model -inneholder grunndataene, CSS = view - bestemmer utseende JS = Controller - kan manipulere begge deler.
