@@ -1,3 +1,4 @@
+/* stil fra bodytaggen, hentet fra lab1 av Janis */
  body {
     padding-left: 11em;
     font-family: Georgia, "Times New Roman",
@@ -5,6 +6,7 @@
     color: yellow;
     background-color: #B2B2B2
  }
+ /* stilen til menyen til venstre */
   ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -13,18 +15,23 @@
     top: 2em;
     left: 1em;
     width: 9em }
+  /* stil for heading */
   h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
+   /* stil for navigasjonslinker */
   ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid black }
+     /* stil for linker i menyen */
   ul.navbar a {
     text-decoration: none }
+     /* stil for ikke besøkende linker */
   a:link {
     color: red }
+     /* stil for besøkende linker */
   a:visited {
     color: orange }
   address {
@@ -33,7 +40,7 @@
     border-top: thin dotted }
 
 
-
+ /* siden kun 3. hver farge er lik så blir det bare rot og kalle alle #tredjehver o.l. derfor lagde jeg andre random navn*/
 
 #top5{
 	color: green;
@@ -51,3 +58,4 @@
 	list-style-type: none;
 	text-align: middle;
 }
+
