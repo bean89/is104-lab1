@@ -6,6 +6,7 @@
 	<script src="js/jquery-1.8.1.js"></script>
 	<!-- Setter inn jcanvas biblioteket som bygger på jQuery -->
 	<script src="js/jcanvas.min.js"></script>
+	<link rel="stylesheet" href="css/lab3.css" type="text/css" />
 	
 	<!-- Husk å legge til CSS filen din her" -->
 	
@@ -41,10 +42,13 @@
 		*/
 			// Skriv koordinatene ut til console basert på lab3_v2
 			// Kopier fra lab2_v2
-			
+			console.log( "(x,y) = ("+mouse.x+","+mouse.y+")" );
 			// Her bare kopieres lignende løsning fra lab3_v2
 			// for å skrive ut til <span> elementnoden
-			
+			$("#x").addClass("horisontal");
+			$("#y").addClass("vertikal");
+			$("#x").html(mouse.x);
+			$("#y").html(mouse.y);
 			// Dette er kode for deloppgave 2
 			// Her er to metoder kalt opp etter hverandre og begge tilhører objektet canvas
 			canvas.clearCanvas({
@@ -54,6 +58,14 @@
 			})
 			.drawText({
 				// Her besvares deloppgave 2 (se lenken til jCanvas dokumentasjon i oppgaveteksten)
+				fillStyle: "#333",
+				x: mouse.x,
+				y: mouse.y,
+				strokeStyle: "#000",
+				strokeWidth: "1",
+				font: "8pt Verdana, sansserif",
+				text: mouse.x + "," + mouse.y
+
 			});
 			
 			return false;
@@ -72,5 +84,7 @@
 	</p>
 	<canvas id="my_canvas" width="200" height="200"></canvas>
 	<!-- Oppgaveløsning skal implementeres her -->
+	<p> avstand fra den venstre kanten av Canvas er <span id="x"></span></p>
+	<p> avstand fra den øverste kanten av Canvas er <span id="y"></span></p>
 </body>
 </html>
