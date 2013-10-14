@@ -12,3 +12,7 @@ color: red
 	font-weight: bold;
 
 }
+
+.my_canvas {
+	border: solid black;
+}
